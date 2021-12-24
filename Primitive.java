@@ -1,5 +1,5 @@
 
-public class Main {
+public class Primitive {
   public static void main(String[] args) {
     //Concept: important to think about what primitive types to use so we can save memory.
     //I.e. we're talking about age here so there's no reason to use int age = 30. (int (goes up to 2B) takes 4 bytes of memory whereas byte takes 1)
@@ -11,5 +11,8 @@ public class Main {
     //Concept: Store one letter in single quotes, and strings in double quotes
     char letter = 'A';
     System.out.println(letter);
+    System.out.println(age);
+    System.out.println(viewsCount);
+    System.out.println(price);
   }
 }
