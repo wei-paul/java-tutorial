@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class myArrays {
+public class MyArrays {
   
   public static void main(String[] args) {
     int[] numbers = { 2, 3, 5, 1, 4 };
