@@ -3,9 +3,11 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
+    final byte MONTHS_IN_YEAR = 12;
+    final byte PERCENT = 100;
     System.out.print("Principal: ");
     Scanner principalScanner = new Scanner(System.in);
-    byte principal = principalScanner.nextByte();
+    int principal = principalScanner.nextInt();
         
     System.out.print("Annual Interest Rate: ");
     Scanner interestRateScanner = new Scanner(System.in);
@@ -17,9 +19,9 @@ public class Main {
  
     // M = P ( r (1 + r)^n / (1 + r)^n - 1 )
     NumberFormat currency = NumberFormat.getCurrencyInstance();
-    String result = currency.format(//);
+    // String result = currency.format(//);
     
-    System.out.print("Annual Interest Rate: " + result);
+    System.out.print("Annual Interest Rate: ");
     
   }
 }
