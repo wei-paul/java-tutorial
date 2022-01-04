@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ForLoops {
+public class WhileLoops {
   public static void main(String[] args) {
     String input = "";
     //Concept: Input is a string (reference type) and so we can not use the comparison operator within reference types. Because this operator will compare the address for a string object (end up having different addresses), not their value.
