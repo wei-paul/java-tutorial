@@ -18,3 +18,8 @@
 - Encountered this when I tried to run the program
 - Missing a closed "}" 
 - Add } where necessary
+
+*insert "Dimensions" to complete ReferenceType
+- Encountered when using primitive types in HashMap (i.e. int)
+- Must use classes <String, Integer>
+- Use the full java wrapper classes. Changed int to Integer
